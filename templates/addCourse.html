@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/Design.css') }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div id="homenav">
+			<center>
+			<h2 style="font-family: 'Oswald', sans-serif;">TIMETABLE<br>PORTAL</h2>
+			<ul>
+				<li><a href="/addEvent">Upload Timetable</a></li>
+				<li><a href="/login">Logout</a></li>
+				<li><a href="/about">About Crypton</a></li>
+			</ul>
+			</center>
+		</div>
+
+		<content>
+			<h1 style="font-family: 'Oswald', sans-serif;">
+				ADD COURSE DETAILS...
+			</h1>
+			<form action="/inter2" method="post">
+				<table>
+				<tr>
+				<td>Course Name:</td>
+				<td><input type="text" name="Name" ></td></tr>
+
+				<tr>
+				<td>Course Code:</td>
+				<td><input type="text" name="Code" ></td></tr>
+				
+				<tr>
+				<td>Start    Time:</td>
+				<td><input type="Time" name="TimeS" ></td></tr>
+				
+				<tr>
+				<td>End Time:</td>
+				<td><input type="Time" name="TimeE" ></td></tr>
+				
+				<tr>
+				<td>Weekday:</td>
+				<td><input type="Day" name="Day" ></td></tr>
+
+				</table><br><br>
+
+				<input type="Submit" name="Password" value="Submit"><br>
+				
+			</form> 
+		</content>
+		
+	</body>
+
+</html>

@@ -1,0 +1,123 @@
+#heading{
+	display: block;
+	float:left;
+	text-align: left;
+	padding-left: 20px;
+	/*margin:10px 0px;*/
+	font-size:1.5vw;
+	color: #EDB88B;
+	font-family: Ostrich2;
+}
+#login{
+	float:right;
+	display: block;
+	opacity:1;
+	font-family: Ostrich1;
+	font-size: 30px;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	width:30vw;
+	height:100vh;
+	text-align: center;
+	background-color: #CD5334;
+}
+#homenav{
+	float:left;
+	display: block;
+	opacity:1;
+	font-family: Ostrich1;
+	font-size: 5vh;
+	width:20vw;
+	height:100vh;
+	text-align: center;
+	background-color: #CD5334;
+	margin: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  #login {   
+    width: 100%;
+    padding: 0;
+  }
+}
+content{
+	float: left;
+	color: #EDB88B;
+	padding:5vh 5vw;
+	font-family: Ostrich1;
+}
+
+@font-face { font-family: Ostrich1; src: url('OstrichSansRounded-Medium.otf'); }
+@font-face { font-family: Ostrich2; src: url('OstrichSans-Black.otf'); } 
+@font-face { font-family: Ostrich3; src: url('OstrichSans-Bold.otf'); } 
+
+body {
+	margin: 0px;
+  	background-color: #2E282A;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  
+  }
+
+table{
+	width: 30vw;
+	font-size: 2vw;
+	text-align:right;
+}
+td{
+	padding: 10px;
+}
+
+ img{
+ 	margin:0px;
+ 	display: block;
+ 	position: relative;
+ }
+
+ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+li{	
+	margin: 0px;
+}
+
+a:link,a:visited{
+  background-color: #CD5334;
+  padding: 10px 50px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover{
+	background-color: #BB4C30;
+	color: black;
+}
+
+input[type=text],input[type=password],input[type=day],input[type=time]{
+	width: 10vw;
+	padding: 10px; 
+	border:none;
+	background-color: #FAD8D6;
+}
+input:focus{
+	border-color: rgb(50,50,50);
+	box-shadow: ;
+	background-color: none;
+}
+
+button,input[type=submit]{
+	background-color: #EDB88B;
+	border:none;
+	height:6vh;
+	width:10vw;
+}
+button:hover,input[type=submit]:hover{
+	background-color: #D8A87F;
+}
+button:focus,input[type=submit]:hover{
+	background-color: #AD8666;
+}

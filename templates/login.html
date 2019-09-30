@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/Design.css') }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="heading"><br><br><br>
+
+			<img src="{{url_for('static',filename = 'logo2.png') }}" width="300vw" height="150vh"><br>
+			<h1 style="font-size: 20vh; margin: 0px 15px;">
+				TimeTable<br>Portal
+			</h1>
+		</div>
+		<div id="login">
+			<br><br>
+			<h1 style="font-family: 'Oswald', sans-serif;">LOGIN</h1>
+
+			<form method = "post" action="/intermediate">
+				<table>
+				<tr>
+				<td>Admin ID</td>
+				<td><input type="text" name="username" placeholder="Username"></td></tr>
+
+				<tr>
+				<td>Password</td>
+				<td><input type="Password" name="Password" placeholder="********"></td></tr>
+
+				</table><br><br>
+
+				<input type="Submit" name="Password" value="LogIn"><br>
+				
+			</form> 
+			
+		</div>
+	</body>
+
+</html>
