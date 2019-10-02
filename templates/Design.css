@@ -1,3 +1,4 @@
+
 #heading{
 	display: block;
 	float:left;
@@ -97,7 +98,7 @@ a:hover{
 	color: black;
 }
 
-input[type=text],input[type=password],input[type=day],input[type=time]{
+input[type=text],input[type=password],input[type=day],input[type=time],input[type=date]{
 	width: 10vw;
 	padding: 10px; 
 	border:none;

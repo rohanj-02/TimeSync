@@ -2,6 +2,7 @@
 	<head>
 		<title>Home</title>
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/Design.css') }}">
+<!--        <link rel = "stylesheet" href = "../static/css/Design.css">-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
@@ -34,7 +35,13 @@
 				<td><input type="text" name="Code" ></td></tr>
 				
 				<tr>
-				<td>Start    Time:</td>
+                
+                <td>Date:</td>
+                <td><input type="date" name="Date"></td>
+                </tr>
+                    
+                <tr>  
+				<td>Start Time:</td>
 				<td><input type="Time" name="TimeS" ></td></tr>
 				
 				<tr>
@@ -54,4 +61,3 @@
 		
 	</body>
 
-</html>
