@@ -1,3 +1,7 @@
+body{
+    font-family: 'Century Gothic', sans-serif;
+    
+}
 #heading{
 	display: block;
 	float:left;
@@ -5,32 +9,32 @@
 	padding-left: 20px;
 	/*margin:10px 0px;*/
 	font-size:1.5vw;
-	color: #EDB88B;
-	font-family: Ostrich2;
+	color: #F9EBE0;
+/*	font-family: Ostrich2;*/
 }
 #login{
 	float:right;
 	display: block;
 	opacity:1;
-	font-family: Ostrich1;
+/*	font-family: Ostrich1;*/
 	font-size: 30px;
 	padding-right: 5vw;
 	padding-left: 5vw;
 	width:30vw;
 	height:100vh;
 	text-align: center;
-	background-color: #CD5334;
+	background-color: #2ABAEA;
 }
 #homenav{
 	float:left;
 	display: block;
 	opacity:1;
-	font-family: Ostrich1;
+/*	font-family: Ostrich1;*/
 	font-size: 5vh;
 	width:20vw;
 	height:100vh;
 	text-align: center;
-	background-color: #CD5334;
+	background-color: #2ABAEA;
 	margin: 0px;
 }
 
@@ -42,9 +46,9 @@
 }
 content{
 	float: left;
-	color: #EDB88B;
+	color: #F9EBE0;
 	padding:5vh 5vw;
-	font-family: Ostrich1;
+/*	font-family: Ostrich1;*/
 }
 
 @font-face { font-family: Ostrich1; src: url('OstrichSansRounded-Medium.otf'); }
@@ -53,7 +57,7 @@ content{
 
 body {
 	margin: 0px;
-  	background-color: #2E282A;
+  	background-color: #0D2149;
   	background-repeat: no-repeat;
   	background-size: cover;
   
@@ -61,7 +65,7 @@ body {
 
 table{
 	width: 30vw;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	text-align:right;
 }
 td{
@@ -85,7 +89,7 @@ li{
 }
 
 a:link,a:visited{
-  background-color: #CD5334;
+  background-color: #2ABAEA;
   padding: 10px 50px;
   color: black;
   text-align: center;
@@ -93,15 +97,15 @@ a:link,a:visited{
   display: inline-block;
 }
 a:hover{
-	background-color: #BB4C30;
+	background-color: #2ABAEA;
 	color: black;
 }
 
-input[type=text],input[type=password],input[type=day],input[type=time]{
+input[type=text],input[type=password],input[type=day],input[type=time],input[type=date]{
 	width: 10vw;
 	padding: 10px; 
 	border:none;
-	background-color: #FAD8D6;
+	background-color: #F9EBE0;
 }
 input:focus{
 	border-color: rgb(50,50,50);
@@ -110,7 +114,7 @@ input:focus{
 }
 
 button,input[type=submit]{
-	background-color: #EDB88B;
+	background-color: #F9EBE0;
 	border:none;
 	height:6vh;
 	width:10vw;
