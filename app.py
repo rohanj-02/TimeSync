@@ -46,7 +46,7 @@ c.close
 conn.close()
 @app.route('/')
 def f1():
-	return ("Welcome to the home page")
+	return redirect('/login')
 
 @app.route('/addEvent')
 def f2():
